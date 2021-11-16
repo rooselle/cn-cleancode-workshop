@@ -11,3 +11,18 @@ function config(string $service): array
 {
     return [];
 }
+
+function app(): App
+{
+    return new App();
+}
+
+function now(): string
+{
+    return '';
+}
+
+function ray(mixed $value): Ray
+{
+    return new Ray();
+}
